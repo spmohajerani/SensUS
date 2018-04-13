@@ -1,0 +1,157 @@
+:TITLE CleWin3 Help
+:BASE CleWin3.hlp
+1 Introduction
+2 Introduction=Introduction@CleWin3.hlp
+2 Getting started=Gettingstarted@CleWin3.hlp
+2 Mask fabrication=Maskfabrication@CleWin3.hlp
+2 License terms=Licenseterms@CleWin3.hlp
+2 Support=Support@CleWin3.hlp
+1 The user interface
+2 The user interface=Userinterface@CleWin3.hlp
+2 The menu bar
+3 The menu bar=Menubar@CleWin3.hlp
+3 The File menu
+4 The File menu=Filemenu@CleWin3.hlp
+4 File|New=FileNew@CleWin3.hlp
+4 File|Open...=FileOpen@CleWin3.hlp
+4 File|Open library...=FileOpenlibrary@CleWin3.hlp
+4 File|Save=FileSave@CleWin3.hlp
+4 File|Save as...=FileSaveas@CleWin3.hlp
+4 File|Export layer...=FileExportlayer@CleWin3.hlp
+4 File|Read layer map...=FileReadlayermap@CleWin3.hlp
+4 File|Save layer map...=FileSavelayermap@CleWin3.hlp
+4 File|Create metafile...=FileCreatemetafile@CleWin3.hlp
+4 File|Print...=FilePrint@CleWin3.hlp
+4 File|Print setup...=FilePrintsetup@CleWin3.hlp
+4 File|Exit=FileExit@CleWin3.hlp
+3 The Edit menu
+4 The Edit menu=Editmenu@CleWin3.hlp
+4 Edit|Undo=EditUndo@CleWin3.hlp
+4 Edit|Cut=EditCut@CleWin3.hlp
+4 Edit|Copy=EditCopy@CleWin3.hlp
+4 Edit|Paste=EditPaste@CleWin3.hlp
+4 Edit|Delete=EditDelete@CleWin3.hlp
+4 Edit|Duplicate...=EditDuplicate@CleWin3.hlp
+4 Edit|Transform...=EditTransform@CleWin3.hlp
+4 The Edit|Shaping menu=EditShaping@CleWin3.hlp
+4 Edit|Shaping|Merge=EditShapingMerge@CleWin3.hlp
+4 Edit|Shaping|Intersect=EditShapingIntersect@CleWin3.hlp
+4 Edit|Shaping|XOR=EditShapingXOR@CleWin3.hlp
+4 Edit|Shaping|Subtract=EditShapingSubtract@CleWin3.hlp
+4 Edit|Shaping|Invert...=EditShapingInvert@CleWin3.hlp
+4 Edit|Shaping|Convert into polygon(s)=EditShapingConvertintopoly@CleWin3.hlp
+4 Edit|Shaping|Connect wires=EditShapingConnectwires@CleWin3.hlp
+4 Edit|Properties...=EditProperties@CleWin3.hlp
+3 The Layout menu
+4 The Layout menu=Layoutmenu@CleWin3.hlp
+4 The Layout|Snap to menu=LayoutSnapto@CleWin3.hlp
+4 Layout|Snap to|Snap to grid=LayoutSnaptogrid@CleWin3.hlp
+4 Layout|Snap to|Snap to guidelines=LayoutSnaptoGuidelines@CleWin3.hlp
+4 Layout|Snap to|Orthogonal=LayoutSnaptoOrthogonal@CleWin3.hlp
+4 Layout|Single layer=LayoutSinglelayer@CleWin3.hlp
+4 Layout|Lock symbols / groups=LayoutLocksymbolsgroups@CleWin3.hlp
+4 Layout|Grid setup...=LayoutGridsetup@CleWin3.hlp
+4 Layout|Grid +=LayoutGridPlus@CleWin3.hlp
+4 Layout|Grid -=LayoutGridMinus@CleWin3.hlp
+4 The Layout|Layers menu=LayoutLayers@CleWin3.hlp
+4 Layout|Layers|Add layers...=LayoutLayersAddlayers@CleWin3.hlp
+4 Layout|Layers|Remove layers...=LayoutLayersRemovelayers@CleWin3.hlp
+4 Layout|Layers|Layer properties...=LayoutLayersLayerproperties@CleWin3.hlp
+4 Layout|Mask size...=LayoutMasksize@CleWin3.hlp
+4 Layout|Preferences...=LayoutPreferences@CleWin3.hlp
+4 The Layout|Special menu=LayoutSpecial@CleWin3.hlp
+4 Layout|Special|Center at (0,0)=LayoutSpecialCenterat(00)@CleWin3.hlp
+4 Layout|Special|Flatten=LayoutSpecialFlatten@CleWin3.hlp
+4 Layout|Special|Insert text...=LayoutSpecialInserttext@CleWin3.hlp
+3 The Arrange menu
+4 The Arrange menu=Arrangemenu@CleWin3.hlp
+4 Arrange|Combine...=ArrangeCombine@CleWin3.hlp
+4 Arrange|Group=ArrangeGroup@CleWin3.hlp
+4 Arrange|Uncombine / ungroup=ArrangeUncombineungroup@CleWin3.hlp
+4 Arrange|Flatten selection=ArrangeFlattenselection@CleWin3.hlp
+4 Arrange|Open symbol=ArrangeOpensymbol@CleWin3.hlp
+4 Arrange|Close symbol=ArrangeClosesymbol@CleWin3.hlp
+3 The View menu
+4 The View menu=Viewmenu@CleWin3.hlp
+4 View|Zoom in...=ViewZoomin@CleWin3.hlp
+4 View|Zoom out=ViewZoomout@CleWin3.hlp
+4 View|Zoom all=ViewZoomall@CleWin3.hlp
+4 View|Show grid=ViewShowgrid@CleWin3.hlp
+4 View|Fill=ViewFill@CleWin3.hlp
+4 View|Show coordinates=ViewShowcoordinates@CleWin3.hlp
+4 View|Show rulers=ViewShowrulers@CleWin3.hlp
+4 The View|Symbols menu=ViewSymbols@CleWin3.hlp
+4 View|Symbols|Show interiors=ViewSymbolsShowinteriors@CleWin3.hlp
+4 View|Symbols|Show outlines=ViewSymbolsShowborders@CleWin3.hlp
+4 View|Symbols|Number of levels...=ViewSymbolsNumberoflevels@CleWin3.hlp
+4 The View|Groups menu=TheViewGroupsmenu@CleWin3.hlp
+4 View|Groups|Show outlines=ViewGroupsShowoutlines@CleWin3.hlp
+4 The View|Background menu=ViewBackground@CleWin3.hlp
+4 View|Background|Show wafer outline=ViewBackgroundShowwaferout@CleWin3.hlp
+4 View|Background|Show mask dimensions=ViewBackgroundShowmaskdime@CleWin3.hlp
+4 View|Background|White=ViewBackgroundWhite@CleWin3.hlp
+4 View|Background|Black=ViewBackgroundBlack@CleWin3.hlp
+4 View|Redraw window=ViewRedrawwindow@CleWin3.hlp
+3 The Window menu
+4 The Window menu=Windowmenu@CleWin3.hlp
+4 Window|Toolbar=WindowToolbar@CleWin3.hlp
+4 Window|Mode selector=WindowModeselector@CleWin3.hlp
+4 Window|Layers=WindowLayers@CleWin3.hlp
+4 Window|Libraries=WindowLibraries@CleWin3.hlp
+4 Window|Cascade=WindowCascade@CleWin3.hlp
+4 Window|Tile=WindowTile@CleWin3.hlp
+4 Window|Minimize all=WindowMinimizeall@CleWin3.hlp
+4 Window|Arrange all=WindowArrangeall@CleWin3.hlp
+3 The Help menu
+4 The Help menu=Helpmenu@CleWin3.hlp
+4 Help|CleWin Help=HelpContents@CleWin3.hlp
+4 Help|About=HelpAbout@CleWin3.hlp
+2 The tool bars
+3 The tool bars=Toolbar@CleWin3.hlp
+3 Toolbar commands=Toolbarcommands@CleWin3.hlp
+2 The mode selector
+3 The mode selector=Modebar@CleWin3.hlp
+3 Selecting and editing objects=Selectingandeditingobjects@CleWin3.hlp
+3 Edit object nodes=Editobjectnodes@CleWin3.hlp
+3 Zoom in/out=Zoominout@CleWin3.hlp
+3 Insert rectangles=Insertrectangles@CleWin3.hlp
+3 Insert polygons=Insertpolygons@CleWin3.hlp
+3 Insert wires=Insertwires@CleWin3.hlp
+3 Insert circles=Insertcircles@CleWin3.hlp
+3 Insert arc-wires and rings=Insertarcwiresandrings@CleWin3.hlp
+3 Insert text=Inserttext@CleWin3.hlp
+3 Measure distances=Measuredistances@CleWin3.hlp
+3 Cross section viewer=Crosssectionviewer@CleWin3.hlp
+2 The layer panel
+3 The layer panel=Layerpanel@CleWin3.hlp
+3 Layer properties=Layerpropertiesdialog@CleWin3.hlp
+2 The library panel
+3 The library panel=Librarypanel@CleWin3.hlp
+3 Using library symbols=Usinglibrarysymbols@CleWin3.hlp
+2 Layout windows
+3 Layout windows=Layoutwindows@CleWin3.hlp
+3 The treeview=Treeview@CleWin3.hlp
+3 The layout area=Layoutarea@CleWin3.hlp
+3 Rulers and guidelines=Rulersandguidelines@CleWin3.hlp
+1 Useful hints and tricks=Usefulhintsandtricks@CleWin3.hlp
+1 Creating a layout
+2 Creating a layout=Creatingalayout@CleWin3.hlp
+2 Drawing objects=Drawingobjects@CleWin3.hlp
+2 Editing objects=Editingobjects@CleWin3.hlp
+1 Working with symbols
+2 Working with symbols=Workingwithsymbols@CleWin3.hlp
+2 Creating a new symbol=Creatinganewsymbol@CleWin3.hlp
+2 Editing a symbol definition=Editingasymboldefinition@CleWin3.hlp
+2 Deleting a symbol definition=Deletingasymboldefinition@CleWin3.hlp
+2 Creating symbol instances=Creatingsymbolinstances@CleWin3.hlp
+2 Editing symbol instances=Editingsymbolinstances@CleWin3.hlp
+1 File formats
+2 File formats=Fileformats2@CleWin3.hlp
+2 CIF files: CleWin's default file format=CIFfiles@CleWin3.hlp
+2 GDS-II files=GDSfiles@CleWin3.hlp
+2 DXF files=DXFfiles@CleWin3.hlp
+2 EMK and MANN files=EMKandMANNfiles@CleWin3.hlp
+2 Gerber RS-274X files=Gerberfiles@CleWin3.hlp
+2 NC drill files=NCdrillfiles@CleWin3.hlp
+2 Postscript output=Postscriptoutput@CleWin3.hlp
+2 Importing bitmap files=Importingbitmapfiles@CleWin3.hlp
